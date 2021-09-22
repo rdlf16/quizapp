@@ -52,7 +52,6 @@ function onQuiz() {
         <p class="resultado">Sua pontuação foi de ${score}/${perguntas.length}.</p>
         <button class="alerta" onclick=location.reload()>Recomeçar</button>
         `
-
     } else {
 
         limparChecked()
